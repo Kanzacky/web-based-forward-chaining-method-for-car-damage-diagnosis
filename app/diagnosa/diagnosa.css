@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: #000;
+}
+
+/* NAVBAR *****************************************************************************************/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 60px;
+}
+
+.logo {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menu a,
+.lang a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+
+.menu a:hover,
+.lang a:hover {
+  opacity: 0.7;
+}
+
+.lang-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #000;
+}
+
+.lang-btn:hover {
+  background: #f3f4f6;
+}
+
+.lang-menu {
+  position: absolute;
+  right: 0;
+  top: 42px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  min-width: 140px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  display: none;
+  z-index: 100;
+}
+
+.lang-menu a {
+  display: block;
+  padding: 10px 14px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.lang-menu a:hover {
+  background: #f9fafb;
+}
+
+.lang-dropdown:hover .lang-menu {
+  display: block;
+}
+
+/* DIAGNOSA *****************************************************************************************/
+.container {
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 0 20px;
+}
+
+/* FORM */
+#diagnosaForm {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+#diagnosaForm h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+/* LIST GEJALA */
+.gejala-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.gejala-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.gejala-item:hover {
+  background: #f9fafb;
+}
+
+.gejala-item input {
+  accent-color: #000;
+}
+
+.gejala-item span {
+  font-size: 14px;
+}
+
+/* BUTTON */
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* HASIL *****************************************************************************************/
+#hasil {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+#hasil h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+#hasilContent {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.hasil-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 16px;
+  background: #f9fafb;
+}
+
+.hasil-item p {
+  font-size: 16px;
+  margin-bottom: px;
+  line-height: 1.6;
+}
+
+.hasil-item strong {
+  font-weight: 600;
+}
+
+/* UTIL *****************************************************************************************/
+.hidden {
+  display: none;
+}
+
+/* RESPONSIVE *****************************************************************************************/
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #diagnosaForm,
+  #hasil {
+    padding: 24px;
+  }
+
+  .gejala-list {
+    grid-template-columns: 1fr;
+  }
+}

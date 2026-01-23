@@ -1,0 +1,272 @@
+[
+  {
+    "No": "1",
+    "Gejala": "Mesin sulit dihidupkan",
+    "Kode Gejala": "G01",
+    "Kemungkinan Kerusakan": "Busi kotor atau rusak",
+    "Kode Kerusakan": "K01",
+    "Solusi/Perbaikan": "Bersihkan atau ganti busi",
+    "Tingkat Keparahan": "2"
+  },
+  {
+    "No": "2",
+    "Gejala": "Mesin hidup tapi cepat mati",
+    "Kode Gejala": "G02",
+    "Kemungkinan Kerusakan": "Sistem bahan bakar tersumbat",
+    "Kode Kerusakan": "K02",
+    "Solusi/Perbaikan": "Bersihkan karburator atau filter bensin",
+    "Tingkat Keparahan": "3"
+  },
+  {
+    "No": "3",
+    "Gejala": "Suara mesin kasar saat idle",
+    "Kode Gejala": "G03",
+    "Kemungkinan Kerusakan": "Klep tidak rapat",
+    "Kode Kerusakan": "K03",
+    "Solusi/Perbaikan": "Setel ulang klep",
+    "Tingkat Keparahan": "3"
+  },
+  {
+    "No": "4",
+    "Gejala": "Asap knalpot hitam pekat",
+    "Kode Gejala": "G04",
+    "Kemungkinan Kerusakan": "Campuran bahan bakar terlalu kaya",
+    "Kode Kerusakan": "K04",
+    "Solusi/Perbaikan": "Setel karburator atau periksa sensor oksigen",
+    "Tingkat Keparahan": "4"
+  },
+  {
+    "No": "5",
+    "Gejala": "Mesin cepat panas (overheating)",
+    "Kode Gejala": "G05",
+    "Kemungkinan Kerusakan": "Radiator bocor atau tersumbat",
+    "Kode Kerusakan": "K05",
+    "Solusi/Perbaikan": "Ganti air radiator, bersihkan sistem pendingin",
+    "Tingkat Keparahan": "5"
+  },
+  {
+    "No": "6",
+    "Gejala": "Akselerasi lambat",
+    "Kode Gejala": "G06",
+    "Kemungkinan Kerusakan": "Filter udara kotor",
+    "Kode Kerusakan": "K06",
+    "Solusi/Perbaikan": "Bersihkan atau ganti filter udara",
+    "Tingkat Keparahan": "2"
+  },
+  {
+    "No": "7",
+    "Gejala": "Suara ketukan di mesin saat berjalan",
+    "Kode Gejala": "G07",
+    "Kemungkinan Kerusakan": "Piston aus atau ring piston rusak",
+    "Kode Kerusakan": "K07",
+    "Solusi/Perbaikan": "Bongkar mesin dan ganti komponen aus",
+    "Tingkat Keparahan": "5"
+  },
+  {
+    "No": "8",
+    "Gejala": "Konsumsi bahan bakar boros",
+    "Kode Gejala": "G08",
+    "Kemungkinan Kerusakan": "Injektor bocor",
+    "Kode Kerusakan": "K08",
+    "Solusi/Perbaikan": "Periksa dan ganti injektor",
+    "Tingkat Keparahan": "4"
+  },
+  {
+    "No": "9",
+    "Gejala": "Mesin bergetar saat langsam",
+    "Kode Gejala": "G09",
+    "Kemungkinan Kerusakan": "Dudukan mesin longgar",
+    "Kode Kerusakan": "K09",
+    "Solusi/Perbaikan": "Kencangkan atau ganti mounting mesin",
+    "Tingkat Keparahan": "2"
+  },
+  {
+    "No": "10",
+    "Gejala": "Lampu check engine menyala",
+    "Kode Gejala": "G10",
+    "Kemungkinan Kerusakan": "Sensor oksigen rusak",
+    "Kode Kerusakan": "K10",
+    "Solusi/Perbaikan": "Ganti sensor oksigen",
+    "Tingkat Keparahan": "3"
+  },
+  {
+    "No": "11",
+    "Gejala": "Mesin tidak bertenaga",
+    "Kode Gejala": "G11",
+    "Kemungkinan Kerusakan": "Kompressi mesin rendah",
+    "Kode Kerusakan": "K11",
+    "Solusi/Perbaikan": "Periksa ring piston dan klep",
+    "Tingkat Keparahan": "4"
+  },
+  {
+    "No": "12",
+    "Gejala": "Terdengar suara berdecit dari mesin",
+    "Kode Gejala": "G12",
+    "Kemungkinan Kerusakan": "Tali kipas longgar",
+    "Kode Kerusakan": "K12",
+    "Solusi/Perbaikan": "Kencangkan atau ganti tali kipas",
+    "Tingkat Keparahan": "2"
+  },
+  {
+    "No": "13",
+    "Gejala": "Oli cepat habis",
+    "Kode Gejala": "G13",
+    "Kemungkinan Kerusakan": "Kebocoran oli pada seal",
+    "Kode Kerusakan": "K13",
+    "Solusi/Perbaikan": "Periksa dan ganti seal bocor",
+    "Tingkat Keparahan": "4"
+  },
+  {
+    "No": "14",
+    "Gejala": "Asap putih dari knalpot",
+    "Kode Gejala": "G14",
+    "Kemungkinan Kerusakan": "Oli masuk ke ruang bakar",
+    "Kode Kerusakan": "K14",
+    "Solusi/Perbaikan": "Ganti seal katup atau ring piston",
+    "Tingkat Keparahan": "5"
+  },
+  {
+    "No": "15",
+    "Gejala": "Suara ketukan logam dari mesin",
+    "Kode Gejala": "G15",
+    "Kemungkinan Kerusakan": "Bantalan crankshaft aus",
+    "Kode Kerusakan": "K15",
+    "Solusi/Perbaikan": "Ganti bantalan crankshaft",
+    "Tingkat Keparahan": "5"
+  },
+  {
+    "No": "16",
+    "Gejala": "Mesin tersendat saat digas",
+    "Kode Gejala": "G16",
+    "Kemungkinan Kerusakan": "Filter bensin tersumbat",
+    "Kode Kerusakan": "K16",
+    "Solusi/Perbaikan": "Ganti filter bensin",
+    "Tingkat Keparahan": "3"
+  },
+  {
+    "No": "17",
+    "Gejala": "RPM tidak stabil",
+    "Kode Gejala": "G17",
+    "Kemungkinan Kerusakan": "Idle control valve bermasalah",
+    "Kode Kerusakan": "K17",
+    "Solusi/Perbaikan": "Bersihkan atau ganti ICV",
+    "Tingkat Keparahan": "3"
+  },
+  {
+    "No": "18",
+    "Gejala": "Asap biru dari knalpot",
+    "Kode Gejala": "G18",
+    "Kemungkinan Kerusakan": "Ring piston aus",
+    "Kode Kerusakan": "K18",
+    "Solusi/Perbaikan": "Ganti ring piston",
+    "Tingkat Keparahan": "5"
+  },
+  {
+    "No": "19",
+    "Gejala": "Suara mendesis dari mesin",
+    "Kode Gejala": "G19",
+    "Kemungkinan Kerusakan": "Kebocoran pada gasket",
+    "Kode Kerusakan": "K19",
+    "Solusi/Perbaikan": "Ganti gasket bocor",
+    "Tingkat Keparahan": "4"
+  },
+  {
+    "No": "20",
+    "Gejala": "Oli bercampur air",
+    "Kode Gejala": "G20",
+    "Kemungkinan Kerusakan": "Gasket kepala silinder rusak",
+    "Kode Kerusakan": "K20",
+    "Solusi/Perbaikan": "Ganti gasket kepala silinder",
+    "Tingkat Keparahan": "5"
+  },
+  {
+    "No": "21",
+    "Gejala": "Mesin bergetar saat akselerasi",
+    "Kode Gejala": "G21",
+    "Kemungkinan Kerusakan": "CV joint rusak",
+    "Kode Kerusakan": "K21",
+    "Solusi/Perbaikan": "Ganti CV joint",
+    "Tingkat Keparahan": "3"
+  },
+  {
+    "No": "22",
+    "Gejala": "Bau bensin menyengat",
+    "Kode Gejala": "G22",
+    "Kemungkinan Kerusakan": "Kebocoran pada saluran bahan bakar",
+    "Kode Kerusakan": "K22",
+    "Solusi/Perbaikan": "Periksa dan perbaiki saluran bocor",
+    "Tingkat Keparahan": "4"
+  },
+  {
+    "No": "23",
+    "Gejala": "Kipas radiator tidak berputar",
+    "Kode Gejala": "G23",
+    "Kemungkinan Kerusakan": "Motor kipas rusak",
+    "Kode Kerusakan": "K23",
+    "Solusi/Perbaikan": "Ganti motor kipas",
+    "Tingkat Keparahan": "4"
+  },
+  {
+    "No": "24",
+    "Gejala": "Temperatur naik meski air radiator cukup",
+    "Kode Gejala": "G24",
+    "Kemungkinan Kerusakan": "Thermostat macet",
+    "Kode Kerusakan": "K24",
+    "Solusi/Perbaikan": "Ganti thermostat",
+    "Tingkat Keparahan": "4"
+  },
+  {
+    "No": "25",
+    "Gejala": "Terdengar suara ketukan di bawah mesin",
+    "Kode Gejala": "G25",
+    "Kemungkinan Kerusakan": "Connecting rod longgar",
+    "Kode Kerusakan": "K25",
+    "Solusi/Perbaikan": "Periksa dan ganti connecting rod",
+    "Tingkat Keparahan": "5"
+  },
+  {
+    "No": "26",
+    "Gejala": "Getaran kuat di pedal gas",
+    "Kode Gejala": "G26",
+    "Kemungkinan Kerusakan": "Engine mounting rusak",
+    "Kode Kerusakan": "K26",
+    "Solusi/Perbaikan": "Ganti engine mounting",
+    "Tingkat Keparahan": "3"
+  },
+  {
+    "No": "27",
+    "Gejala": "Asap knalpot berbau bensin mentah",
+    "Kode Gejala": "G27",
+    "Kemungkinan Kerusakan": "Sensor MAF rusak",
+    "Kode Kerusakan": "K27",
+    "Solusi/Perbaikan": "Ganti sensor MAF",
+    "Tingkat Keparahan": "4"
+  },
+  {
+    "No": "28",
+    "Gejala": "Putaran mesin naik turun sendiri",
+    "Kode Gejala": "G28",
+    "Kemungkinan Kerusakan": "Kebocoran udara di intake manifold",
+    "Kode Kerusakan": "K28",
+    "Solusi/Perbaikan": "Periksa dan perbaiki intake manifold",
+    "Tingkat Keparahan": "3"
+  },
+  {
+    "No": "29",
+    "Gejala": "Suhu mesin tidak stabil",
+    "Kode Gejala": "G29",
+    "Kemungkinan Kerusakan": "Sensor suhu rusak",
+    "Kode Kerusakan": "K29",
+    "Solusi/Perbaikan": "Ganti sensor suhu",
+    "Tingkat Keparahan": "3"
+  },
+  {
+    "No": "30",
+    "Gejala": "Oli keluar dari knalpot",
+    "Kode Gejala": "G30",
+    "Kemungkinan Kerusakan": "Turbocharger bocor",
+    "Kode Kerusakan": "K30",
+    "Solusi/Perbaikan": "Perbaiki atau ganti turbocharger",
+    "Tingkat Keparahan": "5"
+  }
+]
