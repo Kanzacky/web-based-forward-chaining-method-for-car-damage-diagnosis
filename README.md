@@ -22,14 +22,6 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
 3. Gunakan `import.php` untuk memasukkan data dari `otomotif.json` ke database:
    - Jalankan lewat terminal: `php import.php`
    - Atau buka via browser jika menggunakan Laragon/XAMPP: `http://localhost/diagnosa-kerusakan-mobil/import.php`
-4. Konfigurasi file `.env` di root project:
-   ```env
-   MYSQLHOST=localhost
-   MYSQLUSER=root
-   MYSQLPASSWORD=
-   MYSQLDATABASE=sistem_pakar_mobil
-   MYSQLPORT=3306
-   ```
 
 ## 🛠️ Cara Instalasi & Menjalankan
 
@@ -64,4 +56,4 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
 - `otomotif.json`: Dataset awal atau backup data gejala/kerusakan.
 
 ---
-Dibuat dengan ❤️ oleh [Kanzacky](https://github.com/Kanzacky)
+Dibuat oleh [Kanzacky](https://github.com/Kanzacky)
