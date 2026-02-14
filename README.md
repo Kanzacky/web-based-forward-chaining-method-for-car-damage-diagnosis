@@ -1,59 +1,16 @@
-# 🚗 Sistem Pakar Diagnosa Kerusakan Mobil
+# Car Damage Diagnosis Expert System
 
-Sistem pakar berbasis web untuk mendiagnosa kerusakan pada mobil menggunakan metode **Forward Chaining**. Aplikasi ini membantu pengguna mengidentifikasi masalah pada kendaraan berdasarkan gejala yang dirasakan.
+A web-based expert system for diagnosing car malfunctions using the **Forward Chaining** method. This application helps users identify vehicle issues based on observed symptoms.
 
-## 🚀 Teknologi yang Digunakan
+## Technologies Used
 
 - **Framework:** Next.js 16 (React 19)
-- **Bahasa:** TypeScript
+- **Language:** TypeScript
 - **Database:** MySQL
 - **Styling:** Tailwind CSS
 
-## 📋 Prasyarat
+## Prerequisites
 
-Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
-- [Node.js](https://nodejs.org/) (Versi terbaru direkomendasikan)
-- [MySQL](https://www.mysql.com/) atau Laragon
-
-## ⚙️ Persiapan Basis Data
-
-1. Buat database baru di MySQL dengan nama `sistem_pakar_mobil`.
-2. Pastikan tabel `rules` sudah tersedia dengan struktur yang sesuai, atau impor struktur tabel jika ada file `.sql`.
-3. Gunakan `import.php` untuk memasukkan data dari `otomotif.json` ke database:
-   - Jalankan lewat terminal: `php import.php`
-   - Atau buka via browser jika menggunakan Laragon/XAMPP: `http://localhost/diagnosa-kerusakan-mobil/import.php`
-
-## 🛠️ Cara Instalasi & Menjalankan
-
-1. **Clone repository:**
-   ```bash
-   git clone https://github.com/Kanzacky/web-based-forward-chaining-method-for-car-damage-diagnosis.git
-   cd diagnosa-kerusakan-mobil
-   ```
-
-2. **Instal dependensi:**
-   ```bash
-   npm install
-   ```
-
-3. **Jalankan aplikasi (Mode Pengembangan):**
-   ```bash
-   npm run dev
-   ```
-   Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
-
-4. **Build untuk Produksi:**
-   ```bash
-   npm run build
-   npm start
-   ```
-
-## 📂 Struktur Proyek Singkat
-
-- `/app`: Direktori utama aplikasi (Next.js App Router).
-- `/lib`: Utilitas dan konfigurasi database.
-- `/public`: Aset statis (gambar, ikon, dll).
-- `otomotif.json`: Dataset awal atau backup data gejala/kerusakan.
-
----
-Dibuat oleh [Kanzacky](https://github.com/Kanzacky)
+Before running this project, ensure you have installed:
+- [Node.js](https://nodejs.org/) (Latest version recommended)
+- [MySQL](https://www.mysql.com/) or Laragon
